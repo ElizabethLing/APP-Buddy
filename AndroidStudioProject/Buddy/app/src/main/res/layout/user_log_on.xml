@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="40dp"
+    android:layout_margin="@dimen/margin"
+    android:layout_gravity="center">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:contentDescription="@string/hello"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin">
+        <!-- 输入用户名的行 -->
+        <EditText
+            android:id="@+id/userMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mobilehint"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/userPwd"
+            android:maxLines="1"
+            android:padding="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- 输入密码的行 -->
+        <EditText
+            android:id="@+id/userPwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:hint="@string/pwdhint"
+            android:maxLines="1"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/bnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/selector"
+        android:text="@string/login"
+        android:layout_margin="@dimen/margin"
+        android:textColor="@color/white"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bnFroget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:background="@null"
+            android:text="@string/forget"
+            android:textColor="@color/grey"/>
+
+        <Button
+            android:id="@+id/bnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@null"
+            android:text="@string/registerhint"
+            android:textColor="@color/grey"/>
+    </RelativeLayout>
+
+</LinearLayout>

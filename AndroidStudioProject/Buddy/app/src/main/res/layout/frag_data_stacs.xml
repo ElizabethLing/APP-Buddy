@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stacs_table"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal">
+
+    <RelativeLayout
+        android:id="@+id/t11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <ImageButton
+            android:id="@+id/sleep"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:background="@mipmap/sleep"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/t11t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sleep"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:text="睡眠"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/t12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/t11"
+        android:layout_toEndOf="@+id/t11"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <ImageButton
+            android:id="@+id/cry"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/mood"/>
+        <TextView
+            android:id="@+id/t12t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cry"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="哭泣" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/t13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/t12"
+        android:gravity="center_vertical"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <ImageButton
+            android:id="@+id/sport"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:background="@mipmap/sport"/>
+        <TextView
+            android:id="@+id/t13t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sport"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="运动" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/t21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t11"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <ImageButton
+            android:id="@+id/health"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/rate" />
+        <TextView
+            android:id="@+id/t21t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/health"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:text="心率" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/t22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t12"
+        android:layout_toRightOf="@+id/t21"
+        android:layout_toEndOf="@+id/t21"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <ImageButton
+            android:id="@+id/emotion"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/emotion"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/t22t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emotion"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="表情" />
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

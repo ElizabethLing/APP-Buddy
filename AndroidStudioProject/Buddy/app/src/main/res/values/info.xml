@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender">
+        <item>小王子</item>
+        <item>小公主</item>
+    </string-array>
+    <string-array name="gender1">
+        <item> 男</item>
+        <item> 女</item>
+    </string-array>
+    <string-array name="bloodtype">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+    <string-array name="relation">
+        <item>父子</item>
+        <item>母子</item>
+        <item>父女</item>
+        <item>母女</item>
+    </string-array>
+    <!-- 国家码 -->
+    <string-array name="CountryCodes">
+        <item>中国</item>
+        <item>美国</item>
+        <item>日本</item>
+        <item>俄罗斯</item>
+        <item>梵蒂冈</item>
+    </string-array>
+    <string-array name="NumberHeader">
+        <item>+86</item>
+        <item>+10</item>
+        <item>+12</item>
+        <item>+13</item>
+        <item>+19</item>
+    </string-array>
+</resources>

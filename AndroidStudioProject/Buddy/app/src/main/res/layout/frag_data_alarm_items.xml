@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_height="88dp"
+        android:layout_width="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/alarm_severity"
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="@mipmap/alarm"
+        android:padding="20dp"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/item_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="宝宝的状态"
+        android:textColor="@color/black"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/alarm_severity"
+        android:textSize="18dp"
+        android:layout_marginLeft="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时间："
+        android:id="@+id/item_t"
+        android:textSize="14dp"
+        android:padding="6dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/item_state"
+        android:layout_centerHorizontal="true"
+        android:layout_alignLeft="@+id/item_state" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:id="@+id/item_time"
+        android:textSize="14dp"
+        android:paddingTop="6dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/item_state"
+        android:layout_toRightOf="@id/item_t"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提醒："
+        android:id="@+id/item_s"
+        android:textSize="15dp"
+        android:paddingLeft="5dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/item_t"
+        android:layout_centerHorizontal="true"
+        android:layout_alignLeft="@+id/item_t" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加辅食"
+        android:id="@+id/item_suggest"
+        android:textSize="15dp"
+        android:paddingTop="6dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/item_time"
+        android:layout_toRightOf="@id/item_t"/>
+
+    <ImageView
+        android:id="@+id/alarm_state_picture"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@mipmap/baby"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"/>
+</RelativeLayout>

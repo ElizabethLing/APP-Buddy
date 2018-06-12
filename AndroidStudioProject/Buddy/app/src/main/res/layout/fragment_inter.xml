@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<RelativeLayout
+    android:id="@+id/Cinfo"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:onClick="clickInfo"
+    android:clickable="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true">
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/Cid_picture"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="@mipmap/baby"
+        android:layout_centerVertical="true" />
+    <TextView
+        android:id="@+id/Cid_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Json"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:textSize="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/Cid_picture"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="宝宝ID："
+        android:id="@+id/Cid_n"
+        android:textSize="13dp"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:layout_below="@+id/Cid_name"
+        android:layout_alignLeft="@+id/Cid_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0123456789"
+        android:id="@+id/Cid"
+        android:textSize="13dp"
+        android:paddingTop="8dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/Cid_name"
+        android:layout_toRightOf="@id/Cid_n"/>
+
+</RelativeLayout>
+
+<ImageView
+    android:id="@+id/image1"
+    android:layout_width="match_parent"
+    android:layout_height="3pt"
+    android:background="@color/gray"
+    android:layout_marginTop="17dp"
+    android:layout_below="@+id/Cinfo"
+    android:layout_centerHorizontal="true"/>
+
+<RelativeLayout
+    android:id="@+id/item_inter"
+    android:layout_below="@id/Cinfo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:text="成长曲线"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="match_parent"
+        android:layout_height="1.5pt"
+        android:background="@color/gray"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/news"
+        />
+        <TextView
+            android:id="@+id/read"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/news"
+            android:layout_marginTop="30dp"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:text="健康记录"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="match_parent"
+        android:layout_height="1.5pt"
+        android:background="@color/gray"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/read"
+        android:layout_alignParentStart="true"/>
+        <TextView
+            android:id="@+id/pic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/read"
+            android:layout_marginTop="30dp"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:text="饮食习惯"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="match_parent"
+        android:layout_height="1.5pt"
+        android:background="@color/gray"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/pic"
+        android:layout_alignParentStart="true"/>
+        <TextView
+            android:id="@+id/vedio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pic"
+            android:layout_marginTop="30dp"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:text="运动项目"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    <ImageView
+        android:id="@+id/image5"
+        android:layout_width="match_parent"
+        android:layout_height="1.5pt"
+        android:background="@color/gray"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/vedio"
+        android:layout_alignParentStart="true"/>
+        <TextView
+            android:id="@+id/knowledge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vedio"
+            android:layout_marginTop="30dp"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:text="生活小常识"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    <ImageView
+        android:id="@+id/image6"
+        android:layout_width="match_parent"
+        android:layout_height="1.5pt"
+        android:background="@color/gray"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/knowledge"
+        android:layout_alignParentStart="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+

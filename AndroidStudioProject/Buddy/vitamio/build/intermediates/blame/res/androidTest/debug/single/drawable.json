@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProject\\Buddy\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\fullscreen_exit.9.png",
+        "source": "E:\\AndroidStudioProject\\Buddy\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable\\fullscreen_exit.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProject\\Buddy\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\scrubber_progress_horizontal_holo_dark.xml",
+        "source": "E:\\AndroidStudioProject\\Buddy\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable\\scrubber_progress_horizontal_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProject\\Buddy\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\scrubber_control_selector_holo.xml",
+        "source": "E:\\AndroidStudioProject\\Buddy\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable\\scrubber_control_selector_holo.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProject\\Buddy\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\fullscreen_alt.9.png",
+        "source": "E:\\AndroidStudioProject\\Buddy\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable\\fullscreen_alt.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProject\\Buddy\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\mediacontroller_button.xml",
+        "source": "E:\\AndroidStudioProject\\Buddy\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable\\mediacontroller_button.xml"
+    }
+]
